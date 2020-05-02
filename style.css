@@ -1,0 +1,69 @@
+.eyeball{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: radial-gradient(circle at 40% 35%, #ffffff 15%, #dcdcdc 47%, #cdcdcd 55%, #bdbdbd 75%);
+    border-radius: 100%;
+}
+.eyeballshadow{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: radial-gradient(circle at 45% 45%, #ffffff00 0%, #ffffff00 64%, #aaaaaa 73%, #ffffff00 76%);
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+.eyeballhighlight{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: radial-gradient(circle at 42% 42%, #ffffff00 0%, #ffffff00 64%, #ffffff 73%, #ffffff00 76%);
+    transform: translate(-50%, -50%)rotateX(180deg)rotateY(180deg);
+    border-radius: 50%;
+}
+.eyeballhighlight2{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(circle at 40% 35%, #ffffffaa 15%, #ffffff00 50%, #cdcdcd00 55%, #bdbdbd00 75%);
+    border-radius: 100%;
+}
+.eh{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: radial-gradient(#ffffffee 25%, #ffffff00 50%);
+}
+.iris{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #5f2a3b;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.irisin{
+    height: 125px;
+    width: 125px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000000;
+    border-radius: 100%;
+}
